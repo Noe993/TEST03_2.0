@@ -1,0 +1,60 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+li a{
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+li a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.grid{
+    height: 23px;
+}
+.signbutton{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 5px;
+    font-weight: bold;
+}
+.logo{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.bar{
+    margin:0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.bar:hover{
+    box-shadow: 1px 1px 1px 1px;
+}
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px;
+    outline: none;
+}
+.bar img{
+    width: 40px;
+}
+.searchbar{
+    border-bottom: 20px;
+    height: 45px;
+    border:none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+}
